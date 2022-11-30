@@ -1,6 +1,6 @@
 def replace_name_function(name_func, *args):
-    full_name = name_func.__name__
-    print(full_name.title().replace("_", " ") , *args)
+    full_name = name_func.__name__.title().replace("_", " ")
+    print(full_name, *args)
 
 
 def open_browser(browser_name):
